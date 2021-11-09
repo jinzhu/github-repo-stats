@@ -144,8 +144,8 @@ git commit -m "ghrs: vc agg ${UPDATE_ID} for ${STATS_REPOSPEC}" || echo "commit 
 git add ghrs-data/forks.csv ghrs-data/stargazers.csv
 git commit -m "ghrs: stars and forks ${UPDATE_ID} for ${STATS_REPOSPEC}" || echo "commit failed, ignore  (continue)"
 
-echo "Translate HTML report into PDF, via headless Chrome"
-python /pdf.py latest-report/report_for_pdf.html latest-report/report.pdf
+# echo "Translate HTML report into PDF, via headless Chrome"
+# python /pdf.py latest-report/report_for_pdf.html latest-report/report.pdf
 
 # Add directory contents (markdown, HTML, PDF).
 git add latest-report

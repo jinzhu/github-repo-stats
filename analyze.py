@@ -193,13 +193,13 @@ def finalize_and_render_report():
     os.unlink(html_template_filepath)
 
     # Generate HTML doc that will be used for rendering a PDF doc.
-    html_template_filepath = gen_pandoc_html_template("html_pdf_view")
-    run_pandoc(
-        md_report_filepath,
-        html_template_filepath,
-        html_output_filepath=os.path.splitext(md_report_filepath)[0] + "_for_pdf.html",
-    )
-    os.unlink(html_template_filepath)
+    # html_template_filepath = gen_pandoc_html_template("html_pdf_view")
+    # run_pandoc(
+    #     md_report_filepath,
+    #     html_template_filepath,
+    #     html_output_filepath=os.path.splitext(md_report_filepath)[0] + "_for_pdf.html",
+    # )
+    # os.unlink(html_template_filepath)
 
 
 def run_pandoc(md_report_filepath, html_template_filepath, html_output_filepath):
