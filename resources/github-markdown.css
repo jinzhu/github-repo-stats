@@ -1,3 +1,24 @@
+body {
+  background: #fff;
+  padding: 0 0 0 6px;
+}
+
+nav#TOC {
+  position: fixed;
+  background: #fff;
+  z-index: 100;
+  width: 100%;
+}
+
+.markdown-body h2 {
+  margin-bottom: 3em !important;
+}
+
+nav#TOC h2 {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
 nav#TOC li {
   display: inline;
   padding-right: 2em;
@@ -673,8 +694,8 @@ nav#TOC li {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 12px;
+  margin-bottom: 8px;
   font-weight: 600;
   line-height: 1.25;
 }
@@ -690,11 +711,11 @@ nav#TOC li {
 }
 
 .markdown-body h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .markdown-body h3 {
-  font-size: 1.25em;
+  font-size: 1.15em;
 }
 
 .markdown-body h4 {
@@ -712,7 +733,7 @@ nav#TOC li {
 
 .markdown-body ol,
 .markdown-body ul {
-  padding-left: 2em;
+  /* padding-left: 2em; */
 }
 
 .markdown-body ol ol,
