@@ -1,3 +1,8 @@
+nav#TOC li {
+  display: inline;
+  padding-right: 2em;
+}
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
