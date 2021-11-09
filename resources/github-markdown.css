@@ -10,8 +10,14 @@ nav#TOC {
   width: 100%;
 }
 
+.markdown-body h1,
 .markdown-body h2 {
-  margin-bottom: 2.2em !important;
+  padding-bottom: .3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+  margin-bottom: 0.6em !important;
 }
 
 nav#TOC h2 {
@@ -21,7 +27,7 @@ nav#TOC h2 {
 
 nav#TOC li {
   display: inline;
-  padding-right: 2em;
+  padding-left: 1em;
 }
 
 .markdown-body .octicon {
@@ -704,26 +710,20 @@ nav#TOC li {
   font-size: 2em;
 }
 
-.markdown-body h1,
 .markdown-body h2 {
-  padding-bottom: .3em;
-  border-bottom: 1px solid #eaecef;
-}
-
-.markdown-body h2 {
-  font-size: 1.2em;
-}
-
-.markdown-body h3 {
   font-size: 1.15em;
 }
 
+.markdown-body h3 {
+  font-size: 1.1em;
+}
+
 .markdown-body h4 {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .markdown-body h5 {
-  font-size: .875em;
+  font-size: .85em;
 }
 
 .markdown-body h6 {
