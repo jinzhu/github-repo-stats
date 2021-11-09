@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  padding: 0 0 0 6px;
+  padding: 0 0 0 6px !important;
 }
 
 nav#TOC {
@@ -11,12 +11,12 @@ nav#TOC {
 }
 
 .markdown-body h2 {
-  margin-bottom: 3em !important;
+  margin-bottom: 2.2em !important;
 }
 
 nav#TOC h2 {
   margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0.2em !important;
 }
 
 nav#TOC li {
@@ -85,7 +85,7 @@ nav#TOC li {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
-  color: #24292e;
+  color: #666;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   font-size: 16px;
   line-height: 1.5;
@@ -663,7 +663,7 @@ nav#TOC li {
 .markdown-body table,
 .markdown-body ul {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .markdown-body hr {
@@ -695,7 +695,7 @@ nav#TOC li {
 .markdown-body h5,
 .markdown-body h6 {
   margin-top: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   font-weight: 600;
   line-height: 1.25;
 }

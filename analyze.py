@@ -103,11 +103,9 @@ def main():
     ## Top referrers and paths
 
 
-    Note: Each data point in the plots shown below is influenced by the 14 days
-    leading up to it. Each data point is the arithmetic mean of the "unique
+    Note: Each data point is the arithmetic mean of the "unique
     visitors per day" metric, built from a time window of 14 days width, and
-    plotted at the right edge of that very time window. That is, these plots
-    respond slowly to change (narrow peaks are smoothed out).
+    plotted at the right edge of that very time window.
 
     """
         )
